@@ -6,19 +6,19 @@ class Apeyolo < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/bearhedge/APE-YOLO/releases/download/v0.0.1/apeyolo-darwin-arm64"
-      sha256 "PLACEHOLDER_UNTIL_FIRST_RELEASE"
+      url "https://storage.googleapis.com/apeyolo-cli-releases/v0.0.1/apeyolo-darwin-arm64"
+      sha256 "2b56f06545a3369e70fdff9716a975e88a5a7a4f0383de918beb23c1089e7ebf"
     end
     on_intel do
-      url "https://github.com/bearhedge/APE-YOLO/releases/download/v0.0.1/apeyolo-darwin-x64"
-      sha256 "PLACEHOLDER_UNTIL_FIRST_RELEASE"
+      url "https://storage.googleapis.com/apeyolo-cli-releases/v0.0.1/apeyolo-darwin-x64"
+      sha256 "3adc0649278658b5cb314db0c8ed93b8df625231c0361b1d0b1b2fbd1fbb74da"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bearhedge/APE-YOLO/releases/download/v0.0.1/apeyolo-linux-x64"
-      sha256 "PLACEHOLDER_UNTIL_FIRST_RELEASE"
+      url "https://storage.googleapis.com/apeyolo-cli-releases/v0.0.1/apeyolo-linux-x64"
+      sha256 "a5bd67373396053b80f2ecf053b1f92fbd7fe17b65812967d2302f81c2c0699d"
     end
   end
 
