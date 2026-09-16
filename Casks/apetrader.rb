@@ -3,7 +3,7 @@ cask "apetrader" do
   name "apetrader"
   desc "Terminal-based AI trading assistant for SPY/SPX options."
   homepage "https://apetrade.com"
-  version "0.1.39"
+  version "0.1.40"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "apetrader" do
   on_macos do
     on_intel do
       url "https://github.com/bearhedge/apetrade-releases/releases/download/v#{version}/apetrader-mac-x86_64.tar.gz"
-      sha256 "1a404aebf0bde90c4d8fae3a0aa04b7befdca126289acf85b4fa2417c2721804"
+      sha256 "65f1a1cb9190309ed305cdcbb9ee551ee7c1d1dda42c51a3fa3c85bd127ac3f2"
     end
     on_arm do
       url "https://github.com/bearhedge/apetrade-releases/releases/download/v#{version}/apetrader-mac-arm64.tar.gz"
-      sha256 "db89dabc207cf523415dab695dec231b59ceae1da48d3e7613a53909473180bb"
+      sha256 "a3730440b4d370740547d72ea6cd0ec16d5d12104585280c088870647b0cf8d1"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/bearhedge/apetrade-releases/releases/download/v#{version}/apetrader-linux-x86_64.tar.gz"
-      sha256 "71650a05e04b20239ca5a2539e40bab04e5e99c5b2c558e7b2fed2bced3be1d9"
+      sha256 "311ec28e79df0101a7dcc947ca0c681d6a52a43cb65221fce5b0232ada4da63a"
     end
     on_arm do
       url "https://github.com/bearhedge/apetrade-releases/releases/download/v#{version}/apetrader-linux-arm64.tar.gz"
-      sha256 "9df2b7986915b99612ac0e0d111991a9ee16f57856f0c4dbbf59e1af68d4b0cc"
+      sha256 "d29d3003c536459e4ad8393a18284490e54e09062fca0616cb6b24afa64c3ecc"
     end
   end
 
